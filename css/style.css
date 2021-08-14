@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg, #F34F6A, #FF8A9E);
+    padding: 40px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form{
+    margin: 0 auto;
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cepBtn{
+    padding: 5px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: .2s;
+    background-color: #F34F6A;
+    color: #171717;
+}
+#cepBtn:hover{
+    background-color: #171717;
+    color: #F34F6A;
+}
+
+#cepInp{
+    max-width: 150px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
