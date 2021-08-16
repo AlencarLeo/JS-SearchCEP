@@ -13,6 +13,6 @@ function searchCep(cep){
     fetch(`https://viacep.com.br/ws/${cep}/json/`)
     .then(response => response.text())
     .then(body =>{
-        cepEnd.innerText = body;
+        cepEnd.innerText = body.replace(/['"']/g, '').replace(/[',']/g, '').replace('{', '').replace('}', '');
     })
 }

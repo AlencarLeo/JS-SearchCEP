@@ -50,3 +50,9 @@ form{
     padding: 5px;
     font-size: 1.5rem;
 }
+
+.cep{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
